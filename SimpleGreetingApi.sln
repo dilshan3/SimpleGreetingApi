@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35027.167
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleGreetingApi", "SimpleGreetingApi\SimpleGreetingApi.csproj", "{C1476A5D-03A9-48D1-8CDC-54F7EAD73FEA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleGreetApi.Tests", "SimpleGreetApi.Tests\SimpleGreetApi.Tests.csproj", "{AEA078EA-9FB4-4018-BC36-CD395BD0586C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C1476A5D-03A9-48D1-8CDC-54F7EAD73FEA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1476A5D-03A9-48D1-8CDC-54F7EAD73FEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1476A5D-03A9-48D1-8CDC-54F7EAD73FEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1476A5D-03A9-48D1-8CDC-54F7EAD73FEA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AEA078EA-9FB4-4018-BC36-CD395BD0586C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AEA078EA-9FB4-4018-BC36-CD395BD0586C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AEA078EA-9FB4-4018-BC36-CD395BD0586C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AEA078EA-9FB4-4018-BC36-CD395BD0586C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {08729459-6F05-46FF-86C8-441C0A40DE2A}
+	EndGlobalSection
+EndGlobal
