@@ -24,8 +24,11 @@ jobs:
       - name: Build
         run: dotnet build --no-restore
 
+      - name: Build entire solution (API + Tests)
+        run: dotnet build SimpleGreetingApi.sln --configuration Debug
+
       - name: Run unit tests
-        run: dotnet test --no-build --verbosity normal
+        run: dotnet test SimpleGreetingApi.sln --no-build --verbosity normal
 
       - name: Publish
         run: dotnet publish -c Release -o ./publish
