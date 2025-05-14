@@ -9,7 +9,7 @@ namespace SimpleGreetApi.Tests
         {
             var service = new GreetService();
             var result = service.Greet("Dilshan");
-            Assert.Equal("Hello, Dilshan! Welcome to CI/ CD Demo", result);
+            Assert.Equal("Hello, Dilshan! Welcome to CICD Demo", result);
         }
     }
 }
