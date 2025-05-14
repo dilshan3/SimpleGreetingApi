@@ -24,15 +24,16 @@ jobs:
       - name: Build
         run: dotnet build --no-restore
 
-      - name: Run tests
-        run: dotnet test
+      - name: Run unit tests
+        run: dotnet test --no-build --verbosity normal
 
       - name: Publish
         run: dotnet publish -c Release -o ./publish
 
       - name: Deploy to Azure Web App
+        if: success()
         uses: azure/webapps-deploy@v2
         with:
-          app-name: YOUR_AZURE_APP_NAME
+          app-name: GreetingApi
           publish-profile: ${{ secrets.AZURE_PUBLISH_PROFILE }}
           package: ./publish
