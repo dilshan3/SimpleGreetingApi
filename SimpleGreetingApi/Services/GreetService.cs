@@ -4,7 +4,7 @@
     {
         public string Greet(string name)
         {
-            return $"Hello, {name}!";
+            return $"Hello, {name}! Welcome to CI/CD Demo.";
         }
     }
 }
